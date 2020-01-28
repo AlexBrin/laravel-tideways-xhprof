@@ -8,7 +8,8 @@ namespace AlexBrin\LaravelTideways\Providers;
  * @package AlexBrin\LaravelTideways\Providers
  *
  * @author Alexander Gorenkov <g.a.androidjc2@ya.ru>
- * @version 1.0.0
+ * @version 1.0.1
+ * @since 1.0.0
  */
 class TidewaysProvider
 {

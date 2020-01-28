@@ -11,6 +11,7 @@ use Closure;
  *
  * @author Alexander Gorenkov <g.a.androidjc2@ya.ru>
  * @version 1.0.0
+ * @since 1.0.0
  */
 class TidewaysMiddleware
 {
