@@ -1,0 +1,37 @@
+{
+    "name": "alexbrin/laravel-tideways-xhprof",
+    "description": "Library for profiling queries in Laravel with Tideways",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "profiler",
+        "profiling",
+        "xhprof",
+        "tideways",
+        "code",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Alexander",
+            "email": "g.a.androidjc2@ya.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "laravel/framework": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlexBrin\\LaravelTideways\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlexBrin\\LaravelTideways\\TidewaysServiceProvider"
+            ]
+        }
+    }
+}
