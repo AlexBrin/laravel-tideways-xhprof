@@ -31,6 +31,6 @@ class TidewaysProvider
         $data = tideways_xhprof_disable();
         $path = storage_path('tideways') . DIRECTORY_SEPARATOR;
         @mkdir($path);
-        file_put_contents($path . date('d-m-Y_H_I_S') . '.xhprof', serialize($data));
+        file_put_contents($path . date('dmYHIs') . '.xhprof', serialize($data));
     }
 }
